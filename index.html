@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#03273f">
+    <meta name="description" content="Projeto TAMAR — Do Cerrado ao mar: a experiência dos estudantes do IFB entre ciência, conservação e cultura oceânica.">
+    <title>Projeto TAMAR · Do Cerrado ao mar | Atlas Digital</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23032b47'/%3E%3Cpath d='M8 34c8-8 16-8 24 0s16 8 24 0v8c-8 8-16 8-24 0S16 34 8 42z' fill='%2345c7df'/%3E%3Cpath d='M8 22c8-8 16-8 24 0s16 8 24 0' fill='none' stroke='%23f4fbfd' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-controls="sidebar" aria-expanded="false">
+      <span aria-hidden="true">☰</span><span>Menu</span>
+    </button>
+
+    <div class="page-shell">
+      <aside class="sidebar" id="sidebar" aria-label="Navegação do atlas">
+        <div class="brand-kicker">Atlas Digital</div>
+        <a class="sidebar-brand" href="#inicio" data-route="home">PROJETO<br>TAMAR</a>
+        <p class="sidebar-caption">Do Cerrado ao mar: a experiência dos estudantes do IFB entre ciência, conservação e cultura oceânica.</p>
+
+        <nav class="side-nav" aria-label="Seções principais">
+          <a class="nav-item active" href="#inicio" data-route="home">
+            <span class="nav-icon" aria-hidden="true">⌂</span><span>Início</span>
+          </a>
+          <label class="select-label" for="section-select">Explorar seção</label>
+          <select id="section-select" aria-label="Explorar seção">
+            <option value="">Escolha uma seção</option>
+          </select>
+          <a class="nav-item" href="#secao=11" data-section-link="11">
+            <span class="nav-icon" aria-hidden="true">▧</span><span>Galeria</span>
+          </a>
+          <a class="nav-item" href="#secao=12" data-section-link="12">
+            <span class="nav-icon" aria-hidden="true">⌕</span><span>Glossário</span>
+          </a>
+          <a class="nav-item" href="#secao=13" data-section-link="13">
+            <span class="nav-icon" aria-hidden="true">≡</span><span>Fontes</span>
+          </a>
+        </nav>
+
+        <button class="download-button" id="download-atlas" type="button">
+          <span aria-hidden="true">⇩</span><span>Baixar atlas em Markdown</span>
+        </button>
+        <div class="sidebar-note">
+          <strong>Versão-base editável</strong><br>
+          Depoimentos, espécies observadas e fotos da turma devem ser inseridos a partir dos registros reais e das autorizações de uso.
+        </div>
+      </aside>
+
+      <div class="backdrop" id="backdrop" hidden></div>
+
+      <main class="main" id="conteudo" tabindex="-1">
+        <div id="app" aria-live="polite"></div>
+        <footer class="atlas-footer">Atlas Digital · Projeto TAMAR · Do Cerrado ao mar · material educativo editável · IFB</footer>
+      </main>
+    </div>
+
+    <dialog class="lightbox" id="lightbox">
+      <button class="lightbox-close" type="button" aria-label="Fechar imagem">×</button>
+      <img id="lightbox-image" alt="">
+      <p id="lightbox-caption"></p>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="atlas-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

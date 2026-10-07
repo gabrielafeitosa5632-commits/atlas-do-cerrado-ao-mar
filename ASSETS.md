@@ -1,20 +1,20 @@
 # Imagens conceituais
 
-As três imagens do atlas foram criadas com a ferramenta embutida `image_gen`. Elas são ilustrações conceituais, não registros do AquaRio ou da visita da turma.
+As três imagens do atlas foram criadas com a ferramenta embutida `image_gen`. Elas são ilustrações conceituais, não registros do Projeto TAMAR nem de uma atividade da turma.
 
-## `assets/hero_aquario.png`
+## `assets/hero_aquario.png` (nome físico preservado por compatibilidade)
 
 ```text
 Use case: photorealistic-natural
 Asset type: ultra-wide hero image for a digital educational atlas
-Primary request: cinematic photograph of a small group of students seen only in silhouette, standing before an enormous public-aquarium tank and looking up at marine life
-Scene/backdrop: immersive floor-to-ceiling aquarium window filled with deep blue ocean water, schooling fish and one large shark gliding through the upper center; subtle rock habitat, no visible venue branding
+Primary request: cinematic conceptual image of a small group of students seen only in silhouette, looking toward marine life and an immersive ocean scene
+Scene/backdrop: deep blue ocean environment with schooling fish and one large shark gliding through the upper center; subtle rock habitat, no visible venue branding
 Subject: five students of varied heights, shown from behind as dark natural silhouettes along the lower center and right; one student gently points upward, another holds a phone low without any readable screen
-Style/medium: high-end documentary photography, photorealistic, authentic aquarium glass, natural body proportions, fine atmospheric detail
+Style/medium: high-end educational photography, photorealistic, natural body proportions, fine atmospheric detail
 Composition/framing: exact 3:1 ultra-wide panoramic composition; left 32 percent intentionally dark, calm and uncluttered as usable negative space; visual action concentrated from center to right; silhouettes remain below the middle so the aquarium dominates
 Lighting/mood: luminous blue ocean light, soft caustics, subtle rim light around silhouettes, contemplative and awe-inspiring, cinematic but believable
 Color palette: deep navy, cobalt, turquoise and restrained cyan highlights
-Constraints: no text, no letters, no numbers, no logos, no trademarks, no signage, no watermark, no borders, no collage, no brand-specific architecture; do not show identifiable faces; preserve generous negative space on the left
+Constraints: no text, no letters, no numbers, no logos, no trademarks, no signage, no watermark, no borders, no collage, no brand-specific architecture; do not show identifiable faces; preserve generous negative space on the left; do not present the image as evidence of a visit
 ```
 
 ## `assets/cerrado_ao_mar.png`

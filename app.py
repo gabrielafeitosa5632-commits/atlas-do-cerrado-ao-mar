@@ -15,7 +15,7 @@ ASSET_DIR = APP_DIR / "assets"
 GALLERY_DIR = ASSET_DIR / "galeria"
 
 st.set_page_config(
-    page_title="Atlas Digital · Do Cerrado ao Mar",
+    page_title="ATLAS DIGITAL / PROJETO TAMAR",
     page_icon="🌊",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -159,9 +159,9 @@ def render_sidebar(current: int) -> None:
     with st.sidebar:
         st.markdown(
             """
-            <div class="brand-kicker">Atlas Digital</div>
-            <div class="sidebar-brand">DO CERRADO<br>AO MAR</div>
-            <div class="sidebar-caption">A experiência dos estudantes do IFB no AquaRio.</div>
+            <div class="brand-kicker">ATLAS DIGITAL /</div>
+            <div class="sidebar-brand">PROJETO<br>TAMAR</div>
+            <div class="sidebar-caption">Do Cerrado ao mar: a experiência dos estudantes do IFB entre ciência, conservação e cultura oceânica.</div>
             """,
             unsafe_allow_html=True,
         )
@@ -187,7 +187,7 @@ def render_sidebar(current: int) -> None:
         st.download_button(
             "↓  Baixar atlas em Markdown",
             data=build_export_markdown().encode("utf-8"),
-            file_name="atlas_do_cerrado_ao_mar.md",
+            file_name="atlas_projeto_tamar.md",
             mime="text/markdown",
             use_container_width=True,
         )
@@ -218,9 +218,9 @@ def render_home() -> None:
         """
         <section class="hero">
           <div class="hero-content">
-            <div class="eyebrow">Atlas digital</div>
-            <h1>Do Cerrado<br><span>ao Mar</span></h1>
-            <p>Uma travessia educativa entre território, água e oceano a partir da experiência dos estudantes do IFB no AquaRio.</p>
+            <div class="eyebrow">ATLAS DIGITAL /</div>
+            <h1>Projeto<br><span>TAMAR</span></h1>
+            <p>Do Cerrado ao mar: a experiência dos estudantes do IFB entre ciência, conservação e cultura oceânica.</p>
             <div class="hero-badge">● &nbsp; 13 percursos de aprendizagem</div>
           </div>
           <span class="hero-credit">Imagem conceitual gerada por IA</span>
@@ -239,7 +239,7 @@ def render_home() -> None:
         f"""
         <div class="section-intro">
           <div><h2>{'Resultados da busca' if search else 'Explore o atlas'}</h2>
-          <p>{'Abra uma seção relacionada ao termo pesquisado.' if search else 'Acesse conceitos, registros e propostas de investigação construídos a partir da visita.'}</p></div>
+          <p>{'Abra uma seção relacionada ao termo pesquisado.' if search else 'Acesse conceitos, fontes e campos preparados para os registros reais da equipe.'}</p></div>
           <div class="count-pill">{len(shown)} {'RESULTADOS' if search else 'SEÇÕES'}</div>
         </div>
         """,
@@ -311,11 +311,11 @@ def render_observation_log() -> None:
     with st.form("observation_form", clear_on_submit=True):
         cols = st.columns([1, 1])
         with cols[0]:
-            common_name = st.text_input("Nome informado ou grupo", placeholder="Ex.: raia")
+            common_name = st.text_input("Nome informado ou grupo", placeholder="Ex.: tartaruga-verde")
             scientific_name = st.text_input("Nome científico confirmado", placeholder="Opcional")
         with cols[1]:
-            location = st.text_input("Recinto ou ponto da visita", placeholder="Ex.: Recinto Oceânico")
-            evidence = st.selectbox("Fonte da identificação", ["Fotografia da equipe", "Placa do recinto", "Mediação educativa", "Ainda não confirmada"])
+            location = st.text_input("Local ou ponto do percurso", placeholder="Ex.: praia, trilha ou espaço expositivo")
+            evidence = st.selectbox("Fonte da identificação", ["Fotografia da equipe", "Placa ou material expositivo", "Mediação educativa", "Ainda não confirmada"])
         note = st.text_area("Característica ou comportamento observado", height=90)
         add = st.form_submit_button("Adicionar ao registro")
         if add and common_name.strip():
@@ -477,7 +477,7 @@ if current_section:
 else:
     render_home()
 st.markdown(
-    '<footer class="atlas-footer">Atlas Digital Do Cerrado ao Mar · material educativo editável · IFB / experiência de visita ao AquaRio</footer>',
+    '<footer class="atlas-footer">ATLAS DIGITAL / PROJETO TAMAR · material educativo editável · IFB / ciência, conservação e cultura oceânica</footer>',
     unsafe_allow_html=True,
 )
 

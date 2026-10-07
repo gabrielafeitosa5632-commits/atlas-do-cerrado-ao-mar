@@ -16,9 +16,9 @@ SECTIONS = [
             {
                 "title": "Uma viagem entre territórios",
                 "body": (
-                    "A visita ao AquaRio pode ser lida como uma travessia: parte-se de um bioma reconhecido como berço de águas, "
-                    "atravessa-se a paisagem urbana e chega-se a um espaço de educação científica dedicado ao oceano. O deslocamento "
-                    "ajuda a perceber que bacias hidrográficas, atmosfera, biodiversidade e modos de vida formam um sistema conectado."
+                    "O percurso formativo sobre o Projeto TAMAR começa em um bioma reconhecido como berço de águas e alcança as praias "
+                    "onde tartarugas marinhas se alimentam, crescem e se reproduzem. Essa aproximação ajuda a perceber que bacias "
+                    "hidrográficas, atmosfera, biodiversidade e modos de vida formam um sistema conectado."
                 ),
             },
             {
@@ -33,8 +33,8 @@ SECTIONS = [
             {
                 "title": "Pergunta de partida",
                 "body": (
-                    "Que relações entre o lugar onde vivemos e o oceano ficaram mais visíveis depois da visita? "
-                    "Use mapas, anotações e fotografias da turma para construir uma resposta coletiva."
+                    "Que relações entre o lugar onde vivemos e o oceano ficaram mais visíveis durante o projeto? "
+                    "Use mapas e somente os registros realmente produzidos pela turma para construir uma resposta coletiva."
                 ),
             },
         ],
@@ -44,48 +44,49 @@ SECTIONS = [
     },
     {
         "number": 2,
-        "title": "Conhecendo o AquaRio",
-        "short_title": "Conhecendo o AquaRio",
-        "summary": "História, finalidade, estrutura e papel sociocultural do espaço.",
+        "title": "Conhecendo o Projeto TAMAR",
+        "short_title": "Conhecendo o Projeto TAMAR",
+        "summary": "História, organização institucional e atuação em rede pela conservação das tartarugas marinhas.",
         "intro": (
-            "O AquaRio é apresentado institucionalmente como um museu de ciência dedicado à educação, pesquisa, conservação, "
-            "cultura e lazer. Inaugurado para visitação em 2016, integra o circuito cultural da Zona Portuária do Rio de Janeiro."
+            "O Projeto TAMAR reúne esforços do poder público e da sociedade civil. O Centro TAMAR é uma unidade pública de pesquisa "
+            "e conservação vinculada ao ICMBio; a Fundação Projeto Tamar é uma organização privada sem fins lucrativos e coexecutora "
+            "de ações de pesquisa, conservação, educação ambiental e inclusão social."
         ),
         "stats": [
-            ("2016", "início da operação"),
-            ("26 mil m²", "área construída"),
-            ("4,5 milhões L", "volume total de água"),
-            ("cerca de 350", "espécies informadas"),
+            ("1980", "início do Projeto TAMAR"),
+            ("1990", "criação do Centro TAMAR"),
+            ("5 espécies", "ocorrem no Brasil"),
+            ("2024–2029", "3º ciclo do PAN"),
         ],
         "blocks": [
             {
-                "title": "Linha do tempo",
+                "title": "Uma história de cooperação",
                 "bullets": [
-                    "2008 — cessão do imóvel destinado ao museu de ciência.",
-                    "2010 — aditivo permitiu parceiros privados na implantação.",
-                    "2013 — constituição da empresa Aqua-Rio Aquário Marinho do Rio de Janeiro S.A.",
-                    "9 de novembro de 2016 — entrada em operação para o público.",
+                    "No fim da década de 1970, levantamentos revelaram a situação crítica das tartarugas marinhas no litoral brasileiro.",
+                    "Em 1980, começou o trabalho que deu origem ao Projeto TAMAR no âmbito do governo federal.",
+                    "Em 1990, o Centro TAMAR foi criado no IBAMA e, em 2007, passou a integrar o ICMBio.",
+                    "Em 1988, foi criada a Fundação Pró-Tamar, hoje Fundação Projeto Tamar, entidade privada sem fins lucrativos e coexecutora do PAN.",
                 ],
             },
             {
-                "title": "Estrutura de visitação",
+                "title": "Papéis institucionais",
                 "body": (
-                    "A página institucional descreve o AquaRio como o maior aquário marinho da América do Sul por volume de água. "
-                    "O Recinto Oceânico reúne 3,5 milhões de litros, sete metros de altura e um túnel interno. O percurso inclui ainda "
-                    "27 tanques secundários e áreas temáticas. Os números podem mudar; por isso, a data de consulta acompanha as fontes."
+                    "O Centro TAMAR/ICMBio coordena políticas e instrumentos públicos, como o Plano de Ação Nacional para a Conservação "
+                    "das Tartarugas Marinhas, além de atuar em pesquisa, avaliação de espécies, conservação e manejo. A Fundação Projeto "
+                    "Tamar executa ações em campo e mantém iniciativas de pesquisa, educação, inclusão social e visitação."
                 ),
             },
             {
-                "title": "Um espaço de educação não formal",
+                "title": "Projeto, instituições e centros de visitantes",
                 "body": (
-                    "Ao aproximar visitantes de organismos e processos aquáticos, o aquário cria oportunidades para observação, "
-                    "conversa com educadores e divulgação científica. Isso complementa — mas não substitui — o trabalho investigativo "
-                    "feito em sala de aula e em ambientes naturais."
+                    "Projeto TAMAR é o nome de uma trajetória e de uma rede de cooperação, não de uma única instalação. Centros de "
+                    "visitantes podem aproximar o público da biologia e das ameaças às tartarugas, mas o trabalho de conservação também "
+                    "acontece em praias, comunidades, instituições de pesquisa e espaços de gestão pública."
                 ),
             },
         ],
-        "reflection": "Quais elementos do espaço ajudaram mais a aprender: animais, painéis, mediação, arquitetura dos recintos ou conversa com colegas? Justifique.",
-        "sources": ["aquario_institucional", "aquario_financeiro", "rio_turismo_cientifico"],
+        "reflection": "Construa um esquema que diferencie Centro TAMAR/ICMBio, Fundação Projeto Tamar e Projeto TAMAR, indicando a fonte usada em cada informação.",
+        "sources": ["centro_tamar", "tamar_historia", "fundacao_tamar", "pan_tartarugas"],
         "image": "hero_aquario.png",
     },
     {
@@ -132,21 +133,21 @@ SECTIONS = [
         "number": 4,
         "title": "Educação Ambiental",
         "short_title": "Educação Ambiental",
-        "summary": "Atividades educativas identificadas durante a visita.",
+        "summary": "Atividades educativas para investigar e registrar com base nas experiências reais da equipe.",
         "intro": (
-            "O roteiro institucional de visitas escolares articula conteúdos da BNCC com observação de organismos, ecossistemas e "
-            "problemas ambientais. Esta seção funciona como guia para comparar o que foi proposto com o que a turma efetivamente viveu."
+            "A educação ambiental integra a conservação das tartarugas marinhas e pode envolver escolas, visitantes e comunidades "
+            "costeiras. Esta seção apresenta possibilidades descritas pelas instituições e campos para registrar somente o que a turma "
+            "efetivamente realizou."
         ),
         "blocks": [
             {
-                "title": "Temas possíveis no percurso",
+                "title": "Possibilidades educativas",
                 "bullets": [
-                    "Diferenças entre ambientes de água doce e salgada.",
-                    "Vertebrados, invertebrados e adaptações ao ambiente.",
-                    "Estratégias de alimentação, proteção e reprodução.",
-                    "Zonação oceânica, biodiversidade e relações ecológicas.",
-                    "Mudanças climáticas, poluição marinha, sustentabilidade e bioética.",
-                    "Desmistificação de tubarões, raias e águas-vivas.",
+                    "Biologia, ciclo de vida e identificação das cinco espécies presentes no Brasil.",
+                    "Ameaças como captura incidental, resíduos, ocupação costeira e mudanças ambientais.",
+                    "Importância das praias, áreas de alimentação e rotas migratórias.",
+                    "Relação entre conservação, comunidades costeiras e modos de vida.",
+                    "Painéis, trilhas, rodas de conversa, vídeos e mediação, quando realmente oferecidos no local visitado.",
                 ],
             },
             {
@@ -166,8 +167,8 @@ SECTIONS = [
                 ],
             },
         ],
-        "reflection": "Registre uma atividade realmente vivenciada pela turma e relacione-a a um conteúdo estudado no IFB.",
-        "sources": ["aquario_visita_escolar", "aquario_educacao_online", "pnea"],
+        "reflection": "Registre uma atividade realmente vivenciada pela turma — se houve visita ou ação de campo — e relacione-a a um conteúdo estudado no IFB.",
+        "sources": ["tamar_educacao", "fundacao_tamar", "pnea"],
         "image": None,
     },
     {
@@ -183,31 +184,31 @@ SECTIONS = [
             {
                 "title": "Grupos para investigar",
                 "bullets": [
-                    "Peixes ósseos — grande diversidade de formas, cores e estratégias ecológicas.",
-                    "Tubarões e raias — peixes cartilaginosos com sentidos especializados.",
-                    "Cnidários — corais, anêmonas e águas-vivas, com células urticantes.",
-                    "Moluscos — grupo que inclui polvos, lulas, caracóis e bivalves.",
-                    "Crustáceos — caranguejos, camarões, lagostas e cracas.",
-                    "Répteis marinhos — como tartarugas, dependentes de água e ambientes costeiros.",
+                    "Tartaruga-cabeçuda — Caretta caretta.",
+                    "Tartaruga-de-pente — Eretmochelys imbricata.",
+                    "Tartaruga-de-couro — Dermochelys coriacea.",
+                    "Tartaruga-verde — Chelonia mydas.",
+                    "Tartaruga-oliva — Lepidochelys olivacea.",
+                    "Outros organismos só devem entrar no inventário quando houver identificação sustentada por evidência.",
                 ],
             },
             {
                 "title": "Ficha de observação",
                 "body": (
-                    "Para cada organismo, anote nome informado, grupo, recinto, características visíveis, comportamento e fonte da "
+                    "Para cada organismo, anote nome informado, grupo, local, características visíveis, comportamento e fonte da "
                     "identificação. Se houver dúvida, mantenha o registro no nível de grupo — por exemplo, “raia” — em vez de adivinhar a espécie."
                 ),
             },
             {
                 "title": "Imagem ilustrativa não é evidência",
                 "body": (
-                    "A imagem desta página apresenta biodiversidade de modo conceitual. Ela não comprova quais organismos estavam no "
-                    "AquaRio na data da visita. O inventário da turma deve se apoiar no próprio acervo documental."
+                    "A imagem desta página apresenta biodiversidade de modo conceitual. Ela não comprova quais espécies foram vistas "
+                    "pela turma nem onde o registro ocorreu. O inventário deve se apoiar no próprio acervo documental."
                 ),
             },
         ],
         "reflection": "Escolha um organismo registrado pela equipe e descreva uma característica que ajude sua sobrevivência no ambiente em que vive.",
-        "sources": ["aquario_tanques", "mma_biodiversidade", "icmbio_monitoramento"],
+        "sources": ["tamar_avaliacao_especies", "centro_tamar", "mma_biodiversidade", "icmbio_monitoramento"],
         "image": "biodiversidade_marinha.png",
     },
     {
@@ -216,8 +217,8 @@ SECTIONS = [
         "short_title": "Ecossistemas",
         "summary": "Recifes, ambientes costeiros, zonas oceânicas e outros ambientes representados.",
         "intro": (
-            "Um ecossistema reúne seres vivos, componentes físicos e as relações entre eles. Aquários representam partes desses "
-            "ambientes; por isso, observar um recinto também exige perguntar o que foi simplificado, selecionado ou controlado."
+            "Um ecossistema reúne seres vivos, componentes físicos e as relações entre eles. Mapas, painéis, modelos e espaços "
+            "expositivos representam apenas partes desses ambientes; interpretá-los exige perguntar o que foi simplificado ou selecionado."
         ),
         "blocks": [
             {
@@ -233,8 +234,8 @@ SECTIONS = [
             {
                 "title": "Representação e realidade",
                 "body": (
-                    "Iluminação, circulação, temperatura, salinidade e abrigo são controlados nos recintos. A cenografia pode ajudar a "
-                    "comunicar um habitat, mas não reproduz toda a complexidade, a escala e a variabilidade de um ecossistema natural."
+                    "Recursos educativos podem ajudar a comunicar um habitat, mas não reproduzem toda a complexidade, a escala e a "
+                    "variabilidade de um ecossistema natural. Sempre compare a representação com dados e fontes sobre o ambiente."
                 ),
             },
             {
@@ -253,21 +254,21 @@ SECTIONS = [
         "number": 7,
         "title": "Conservação",
         "short_title": "Conservação",
-        "summary": "Projetos, ações e mensagens de conservação observadas.",
+        "summary": "Projetos, ações e mensagens de conservação apresentados por fontes oficiais e registros da equipe.",
         "intro": (
             "Conservar não é apenas proteger um animal isolado: envolve habitats, populações, pesquisa, políticas públicas, educação "
-            "e comunidades. O AquaRio divulga ações próprias e parcerias; o atlas distingue esses papéis para não atribuir resultados indevidos."
+            "e comunidades. No Projeto TAMAR, órgãos públicos, organizações da sociedade civil, universidades e comunidades atuam em rede; "
+            "o atlas distingue esses papéis para não atribuir resultados indevidos."
         ),
         "blocks": [
             {
-                "title": "Projetos divulgados",
+                "title": "Frentes de conservação",
                 "bullets": [
-                    "Reprodução de cavalos-marinhos sob cuidados humanos, com objetivo institucional de posterior soltura.",
-                    "Projeto Aruanã — estudos sobre a saúde de tartarugas-verdes da Baía de Guanabara.",
-                    "ReefCheck — pesquisa de reprodução assistida de corais com material criopreservado.",
-                    "Projeto Piabanha — marcação e monitoramento de peixes da bacia do Paraíba do Sul.",
-                    "Divulgação de trabalhos do Projeto Tamar e do Projeto Meros do Brasil.",
-                    "Ações educativas com Instituto Boto Cinza e Guardiões do Mar.",
+                    "Monitoramento de praias e proteção de áreas prioritárias de reprodução.",
+                    "Pesquisa sobre distribuição, migração, alimentação, reprodução e ameaças.",
+                    "Prevenção e mitigação da captura incidental na pesca.",
+                    "Educação ambiental, sensibilização pública e participação das comunidades costeiras.",
+                    "Avaliação do risco de extinção e planejamento de ações no PAN Tartarugas Marinhas 2024–2029.",
                 ],
             },
             {
@@ -283,72 +284,72 @@ SECTIONS = [
             {
                 "title": "Cuidado com conclusões rápidas",
                 "body": (
-                    "Reprodução sob cuidados humanos não significa, por si só, reintrodução bem-sucedida na natureza. Projetos de "
-                    "conservação precisam de metas, protocolos, acompanhamento e avaliação de resultados."
+                    "Uma atividade isolada não demonstra, por si só, recuperação populacional. Projetos de conservação precisam de metas, "
+                    "protocolos, séries de dados, acompanhamento e avaliação de resultados."
                 ),
             },
         ],
-        "reflection": "Escolha uma mensagem de conservação vista na visita e identifique problema, público, ação proposta e evidência apresentada.",
-        "sources": ["aquario_pesquisa", "aquario_institucional", "icmbio_unidades_conservacao", "icmbio_monitoramento"],
+        "reflection": "Escolha uma mensagem de conservação encontrada nos registros reais da equipe e identifique problema, público, ação proposta e evidência apresentada.",
+        "sources": ["pan_tartarugas", "tamar_conservacao_manejo", "fundacao_tamar", "icmbio_monitoramento"],
         "image": None,
     },
     {
         "number": 8,
         "title": "Bem-estar e manejo animal",
         "short_title": "Bem-estar e manejo animal",
-        "summary": "Informações autorizadas sobre manejo, quarentena, alimentação e cuidados.",
+        "summary": "Informações públicas e autorizadas sobre manejo, monitoramento e cuidados.",
         "intro": (
-            "Manejo reúne procedimentos de alimentação, observação, saúde, deslocamento e organização dos recintos. Esta seção usa "
-            "apenas informações publicadas pelas instituições e evita expor protocolos veterinários incompletos ou sensíveis."
+            "Manejo reúne procedimentos autorizados de monitoramento, proteção de ninhos, coleta de dados e atendimento de animais. "
+            "No Brasil, o contato e a manipulação de tartarugas marinhas exigem autorização dos órgãos competentes e aplicação de "
+            "protocolos técnicos."
         ),
         "blocks": [
             {
-                "title": "Quarentena e acompanhamento",
+                "title": "Manejo com autorização e finalidade",
                 "body": (
-                    "A instituição descreve a quarentena como área de recepção, observação e preparação sanitária antes da integração "
-                    "aos tanques de exposição. O espaço também pode funcionar como maternidade, berçário e apoio a pesquisas que exigem acompanhamento separado."
+                    "O Manual para Conservação das Tartarugas Marinhas orienta atividades de pesquisa, monitoramento e manejo durante "
+                    "o processo reprodutivo. Os procedimentos devem reduzir distúrbios e riscos, proteger os animais e produzir dados confiáveis."
                 ),
             },
             {
-                "title": "Rotina de cuidado divulgada",
+                "title": "Princípios de cuidado",
                 "bullets": [
-                    "Acompanhamento diário por biólogos, tratadores e equipe veterinária.",
-                    "Enriquecimento ambiental e condicionamento com alvos associados à alimentação.",
-                    "Condicionamento para facilitar deslocamentos, exames e administração de cuidados.",
-                    "Monitoramento laboratorial em parceria com equipes da UFF.",
+                    "Somente equipes capacitadas e autorizadas devem tocar, medir, marcar ou deslocar animais e ninhos.",
+                    "Cada intervenção precisa de justificativa técnica, registro e método adequado à espécie e à situação.",
+                    "O monitoramento deve buscar o mínimo de alteração no comportamento e no ciclo de vida.",
+                    "Ao encontrar uma tartaruga na praia, o público deve manter distância, não tocar e acionar a rede responsável na região.",
                 ],
             },
             {
                 "title": "O que não generalizar",
                 "body": (
-                    "Dietas, quantidades, parâmetros da água, medicamentos e duração da quarentena variam entre espécies e situações. "
-                    "Um exemplo publicado sobre filhotes de raias não deve ser usado como regra para todo o plantel."
+                    "Técnicas para ninhos, filhotes, fêmeas em reprodução, animais debilitados ou capturados incidentalmente não são "
+                    "intercambiáveis. Um procedimento publicado não deve ser repetido por pessoas não autorizadas nem generalizado para outra situação."
                 ),
             },
         ],
         "reflection": "Explique por que um protocolo de cuidado precisa considerar a espécie, o indivíduo, o ambiente e a finalidade do procedimento.",
-        "sources": ["aquario_quarentena", "aquario_bem_estar", "aquario_tanques", "uff_diagnostico"],
+        "sources": ["tamar_conservacao_manejo", "tamar_manual_manejo", "tamar_monitoramento_praias"],
         "image": None,
     },
     {
         "number": 9,
-        "title": "Ciência no AquaRio",
-        "short_title": "Ciência no AquaRio",
+        "title": "Ciência no Projeto TAMAR",
+        "short_title": "Ciência no Projeto TAMAR",
         "summary": "Pesquisa, divulgação científica e produção de conhecimento.",
         "intro": (
-            "Aquários podem apoiar pesquisa e formação profissional ao manter registros, disponibilizar estruturas de observação e "
-            "colaborar com universidades. O AquaRio informa ter desenvolvido mais de 30 estudos com instituições parceiras."
+            "A ciência sustenta decisões de conservação. No Projeto TAMAR, dados de longo prazo, pesquisa aplicada, avaliação do risco "
+            "de extinção e cooperação entre instituições ajudam a compreender as populações e enfrentar ameaças."
         ),
         "blocks": [
             {
-                "title": "Linhas de pesquisa divulgadas",
+                "title": "Perguntas e métodos",
                 "bullets": [
-                    "Monitoramento clínico e hematológico de animais aquáticos com a UFF.",
-                    "Reprodução, crescimento e comportamento de tubarões e raias com o BioTecPesca/UFRJ.",
-                    "Morfologia embrionária da raia-elétrica Narcine brasiliensis.",
-                    "Microrganismos benéficos e proteção de corais com laboratórios da UFRJ.",
-                    "Tolerância térmica e estudos anti-incrustação em cracas com a UFF.",
-                    "Transferência de microbiota materna em tubarões e raias.",
+                    "Monitoramento de áreas de desova, ninhos, fêmeas e filhotes.",
+                    "Marcação e telemetria para investigar deslocamentos e uso de habitat.",
+                    "Registro de captura incidental, encalhes e outras ameaças.",
+                    "Avaliação periódica do risco de extinção das cinco espécies presentes no país.",
+                    "Organização de séries históricas e bancos de dados para apoiar gestão e políticas públicas.",
                 ],
             },
             {
@@ -368,7 +369,7 @@ SECTIONS = [
             },
         ],
         "reflection": "Escolha uma linha de pesquisa e escreva uma pergunta investigável, uma possível evidência e um cuidado ético necessário.",
-        "sources": ["aquario_pesquisa", "aquario_portal_pesquisas", "uff_diagnostico"],
+        "sources": ["centro_tamar", "tamar_avaliacao_especies", "tamar_banco_dados", "pan_tartarugas", "fundacao_pesquisa"],
         "image": None,
     },
     {
@@ -377,8 +378,8 @@ SECTIONS = [
         "short_title": "Experiência cultural",
         "summary": "Relatos, fotografias, percepções e aprendizados.",
         "intro": (
-            "A experiência cultural não se resume ao conteúdo expositivo. Viagem, convivência, deslocamento pelo Rio de Janeiro, "
-            "encontro com outras paisagens e construção coletiva de memórias também fazem parte da formação."
+            "A experiência cultural não se resume ao conteúdo científico. Pesquisa, convivência, contato com paisagens e comunidades "
+            "costeiras e construção coletiva de memórias também podem fazer parte da formação — desde que registradas pela própria equipe."
         ),
         "blocks": [
             {
@@ -392,7 +393,7 @@ SECTIONS = [
                 "title": "Eixos para organizar as memórias",
                 "bullets": [
                     "O que mais despertou curiosidade.",
-                    "Uma ideia que mudou depois da visita.",
+                    "Uma ideia que mudou durante a pesquisa, atividade ou visita.",
                     "Uma relação percebida entre Cerrado, cidade, costa e oceano.",
                     "Um momento de convivência ou descoberta coletiva.",
                     "Uma pergunta que a turma deseja continuar pesquisando.",
@@ -406,7 +407,7 @@ SECTIONS = [
                 ),
             },
         ],
-        "reflection": "Escreva um relato de até 600 caracteres sobre um encontro, uma surpresa e um aprendizado da viagem.",
+        "reflection": "Escreva um relato de até 600 caracteres sobre um encontro, uma surpresa e um aprendizado realmente vivenciados no projeto.",
         "sources": ["lgpd_guia_escolas"],
         "image": None,
     },
@@ -479,71 +480,71 @@ GLOSSARY = [
 
 
 REFERENCES = {
-    "aquario_institucional": {
-        "title": "AquaRio — O AquaRio",
-        "organization": "AquaRio",
-        "url": "https://www.aquariomarinhodorio.com.br/o-aquario/",
-        "note": "História, finalidade, estrutura, números institucionais e projetos.",
+    "centro_tamar": {
+        "title": "Centro TAMAR/ICMBio",
+        "organization": "Instituto Chico Mendes de Conservação da Biodiversidade",
+        "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/tartarugas-marinhas-e-biodiversidade-marinha-do-leste/Centro-tamar",
+        "note": "Portal oficial do centro público, suas linhas de atuação e conteúdos institucionais.",
     },
-    "aquario_financeiro": {
-        "title": "Demonstrações financeiras — histórico institucional",
-        "organization": "Aqua-Rio Aquário Marinho do Rio de Janeiro S.A.",
-        "url": "https://www.aquariomarinhodorio.com.br/wp-content/uploads/2024/01/AQR-1o-Tri-DF-2023.pdf",
-        "note": "Documento societário usado para a linha do tempo.",
+    "tamar_historia": {
+        "title": "História do Centro TAMAR",
+        "organization": "Instituto Chico Mendes de Conservação da Biodiversidade",
+        "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/tartarugas-marinhas-e-biodiversidade-marinha-do-leste/quem-somos/historia",
+        "note": "Origem do Projeto TAMAR e cooperação entre governo federal e sociedade civil.",
     },
-    "rio_turismo_cientifico": {
-        "title": "Guia de Turismo Científico da Cidade do Rio de Janeiro",
-        "organization": "Prefeitura do Rio de Janeiro e UNIRIO",
-        "url": "https://turismo.prefeitura.rio/wp-content/uploads/sites/34/2023/11/cidade_rio_de_janeiro_guia_turismo_cientifico_2023.pdf",
-        "note": "Contextualização do AquaRio no turismo científico da cidade.",
+    "fundacao_tamar": {
+        "title": "Fundação Projeto Tamar — missão",
+        "organization": "Fundação Projeto Tamar",
+        "url": "https://www.tamar.org.br/interna.php?cod=63",
+        "note": "Entidade privada sem fins lucrativos, coexecutora do PAN, com missão de pesquisa, conservação e inclusão social.",
     },
-    "aquario_visita_escolar": {
-        "title": "AquaRio — Visita escolar",
-        "organization": "AquaRio",
-        "url": "https://www.aquariomarinhodorio.com.br/visitaescolar/",
-        "note": "Temas educativos, públicos e articulação com a BNCC.",
+    "pan_tartarugas": {
+        "title": "PAN Tartarugas Marinhas — 3º ciclo (2024–2029)",
+        "organization": "Instituto Chico Mendes de Conservação da Biodiversidade",
+        "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/tartarugas-marinhas-e-biodiversidade-marinha-do-leste/o-que-fazemos/pan-tartarugas-marinhas",
+        "note": "Plano de ação nacional, prioridades e documentos do ciclo 2024–2029.",
     },
-    "aquario_educacao_online": {
-        "title": "Educação Ambiental — visita online",
-        "organization": "AquaRio",
-        "url": "https://visita-online.aquariomarinhodorio.com.br/pt/researches/18",
-        "note": "Atuação educativa e temas de sensibilização.",
+    "tamar_avaliacao_especies": {
+        "title": "Avaliação de espécies ameaçadas de extinção",
+        "organization": "Centro TAMAR/ICMBio",
+        "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/tartarugas-marinhas-e-biodiversidade-marinha-do-leste/o-que-fazemos/avaliacao-de-especies-ameacadas-de-extincao",
+        "note": "Avaliação do risco de extinção das cinco espécies de tartarugas marinhas da costa brasileira.",
     },
-    "aquario_pesquisa": {
-        "title": "AquaRio — Aqui tem pesquisa",
-        "organization": "AquaRio",
-        "url": "https://www.aquariomarinhodorio.com.br/aqui-tem-pesquisa/",
-        "note": "Parcerias, conservação e linhas de pesquisa divulgadas.",
+    "tamar_educacao": {
+        "title": "Educação Ambiental",
+        "organization": "Centro TAMAR/ICMBio",
+        "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/tartarugas-marinhas-e-biodiversidade-marinha-do-leste/o-que-fazemos/educacao-ambiental",
+        "note": "Ações educativas desenvolvidas diretamente e pela rede de instituições parceiras.",
     },
-    "aquario_portal_pesquisas": {
-        "title": "Portal de pesquisas do AquaRio",
-        "organization": "AquaRio",
-        "url": "https://visita-online.aquariomarinhodorio.com.br/pt/researches",
-        "note": "Projetos de pesquisa e divulgação científica.",
+    "tamar_conservacao_manejo": {
+        "title": "Conservação e manejo",
+        "organization": "Centro TAMAR/ICMBio",
+        "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/tartarugas-marinhas-e-biodiversidade-marinha-do-leste/o-que-fazemos/conservacao-e-manejo",
+        "note": "Competências, autorizações e protocolos para conservação e manejo de tartarugas marinhas.",
     },
-    "aquario_quarentena": {
-        "title": "Quarentena no AquaRio: primeiros cuidados",
-        "organization": "Blog do AquaRio",
-        "url": "https://blog.aquariomarinhodorio.com.br/2019/08/19/quarentena-no-aquario-primeiros-cuidados-com-os-recem-chegados/",
-        "note": "Descrição institucional da área de quarentena.",
+    "tamar_manual_manejo": {
+        "title": "Manual para Conservação das Tartarugas Marinhas",
+        "organization": "Centro TAMAR/ICMBio",
+        "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/tartarugas-marinhas-e-biodiversidade-marinha-do-leste/Arquivos%20do%20Site/pdfs/ManualdeConservaodasTARTARUGASMARINHAS_VersoFinal_07.06.2023.pdf",
+        "note": "Diretrizes técnicas para pesquisa, monitoramento e manejo no processo reprodutivo.",
     },
-    "aquario_bem_estar": {
-        "title": "Bem-estar animal no AquaRio",
-        "organization": "Blog do AquaRio",
-        "url": "https://blog.aquariomarinhodorio.com.br/2019/01/30/bem-estar-animal-e-no-aquario/",
-        "note": "Enriquecimento e condicionamento divulgados pela instituição.",
+    "tamar_monitoramento_praias": {
+        "title": "Programas de Monitoramento de Praias",
+        "organization": "Centro TAMAR/ICMBio",
+        "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/tartarugas-marinhas-e-biodiversidade-marinha-do-leste/o-que-fazemos/programas-de-monitoramento-de-praias",
+        "note": "Orientações públicas e contexto do monitoramento de ocorrências de fauna marinha.",
     },
-    "aquario_tanques": {
-        "title": "Tanques e manejo — visita online",
-        "organization": "AquaRio",
-        "url": "https://visita-online.aquariomarinhodorio.com.br/pt/tanks",
-        "note": "Catálogo e informações de manejo publicadas.",
+    "tamar_banco_dados": {
+        "title": "Banco Nacional de Dados para Conservação das Tartarugas Marinhas",
+        "organization": "Centro TAMAR/ICMBio",
+        "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/tartarugas-marinhas-e-biodiversidade-marinha-do-leste/o-que-fazemos/bdctamar-banco-de-dados",
+        "note": "Ferramenta de apoio à conservação e à gestão de dados sobre tartarugas marinhas.",
     },
-    "uff_diagnostico": {
-        "title": "Apoio diagnóstico ao plantel de animais aquáticos do AquaRio",
-        "organization": "Universidade Federal Fluminense",
-        "url": "https://www.extensao.uff.br/implemento/showProjeto.php?Title=Apoio+diagn%C3%B3stico+ao+plantel+de+animais+aqu%C3%A1ticos+do+Aqu%C3%A1rio+Marinho+do+Rio+de+Janeiro&id=390035.2201.84665.24022023",
-        "note": "Projeto de extensão e monitoramento laboratorial.",
+    "fundacao_pesquisa": {
+        "title": "Pesquisa aplicada e conservação",
+        "organization": "Fundação Projeto Tamar",
+        "url": "https://www.tamar.org.br/",
+        "note": "Linhas institucionais de pesquisa aplicada, telemetria, interação com a pesca e conservação.",
     },
     "unesco_ocean_literacy": {
         "title": "Cultura oceânica para todos — kit pedagógico",
@@ -632,9 +633,9 @@ def get_section(number: int) -> dict | None:
 
 def build_export_markdown() -> str:
     lines = [
-        "# Atlas Digital — Do Cerrado ao Mar",
+        "# ATLAS DIGITAL / PROJETO TAMAR",
         "",
-        "A experiência dos estudantes do IFB no AquaRio.",
+        "Do Cerrado ao mar: a experiência dos estudantes do IFB entre ciência, conservação e cultura oceânica.",
         "",
         "> Versão-base editável. Registros de visita devem ser confirmados pela equipe.",
         "",
