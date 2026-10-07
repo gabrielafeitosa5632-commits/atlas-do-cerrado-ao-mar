@@ -180,6 +180,7 @@
           <p>A experiência dos estudantes do IFB entre ciência, conservação e cultura oceânica.</p>
           <div class="hero-badge">13 percursos de aprendizagem</div>
         </div>
+        <img class="hero-turtle" src="assets/tartaruga_pequena.png" alt="" aria-hidden="true" decoding="async">
         <span class="hero-credit">Imagem conceitual gerada por IA</span>
       </section>
 

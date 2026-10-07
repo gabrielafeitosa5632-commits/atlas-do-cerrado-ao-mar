@@ -279,6 +279,19 @@ button {
   max-width: 44rem;
 }
 
+.hero-turtle {
+  position: absolute;
+  z-index: 1;
+  top: clamp(1.4rem, 5vw, 3.6rem);
+  right: clamp(1.2rem, 5vw, 5.2rem);
+  width: clamp(5.5rem, 11vw, 9.25rem);
+  height: auto;
+  filter: drop-shadow(0 12px 18px rgba(0, 29, 46, 0.32));
+  opacity: 0.96;
+  pointer-events: none;
+  transform: rotate(-8deg);
+}
+
 .eyebrow,
 .chapter-kicker {
   color: #91e0f2;
@@ -1162,6 +1175,13 @@ button {
 
   .hero p {
     font-size: 1rem;
+  }
+
+  .hero-turtle {
+    top: 1rem;
+    right: 0.9rem;
+    width: 5.25rem;
+    opacity: 0.88;
   }
 
   .section-intro {
